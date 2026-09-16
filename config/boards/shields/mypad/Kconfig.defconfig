@@ -1,0 +1,4 @@
+if SHIELD_MYPAD_CENTRAL || SHIELD_MYPAD_PERIPHERAL
+    config ZMK_SPLIT
+        default y
+endif
