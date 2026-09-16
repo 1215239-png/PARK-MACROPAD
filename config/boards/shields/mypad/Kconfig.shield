@@ -1,0 +1,4 @@
+config SHIELD_MYPAD_CENTRAL
+    def_bool $(shields_list_contains,mypad_central)
+config SHIELD_MYPAD_PERIPHERAL
+    def_bool $(shields_list_contains,mypad_peripheral)
