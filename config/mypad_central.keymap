@@ -9,7 +9,7 @@
             bindings = <
                 &kp LC(LA(S))    &kp LG(LS(S))    &kp LG(N1)    &kp C_MUTE
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
